@@ -25,6 +25,16 @@ import {
   threejs,
 } from "../assets";
 
+import testemonial1 from "../assets/testemonial1.jpeg";
+import testemonial2 from "../assets/testemonial2.jpeg";
+import testemonial3 from "../assets/testemonial3.png";
+import shroonies from "../assets/shroonies.png";
+import oddplanet from "../assets/oddplanet.png";
+import moozers from "../assets/moozers.png";
+import moozersFront from "../assets/moozersFrontend.png";
+import oddplanetFront from "../assets/oddplanetFrontend.png";
+import shrooniesFront from "../assets/shrooniesFrontend.png";
+
 export const navLinks = [
   {
     id: "about",
@@ -46,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Solidity Developer",
     icon: mobile,
   },
   {
@@ -117,97 +127,95 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Shroonies",
+    icon: shroonies,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Stress testing various scenarios to ensure ultimate efficiency & optimization for end users upon interacting with the smart contract",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Solidity Developer",
+    company_name: "Moozers",
+    icon: moozers,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing 3 separate NFT related smart contracts, one for the mint, one to serve as a reward system token & a staking mechanism for loyal holders to earn rewards",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Web3 Developer",
+    company_name: "Odd Planet",
+    icon: oddplanet,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining a functional smart contract serving as a token for an upcoming P2E crypto gaming project.",
+      "Developing in house presale Dapp for raising capital. Full stack decentralized application interacting on chain using a user friendly UI",
+      "Stress testing various scenarios to ensure ultimate efficiency & optimization for end users upon interacting with the smart contract",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Truly a one stop shop with Rudeboy, efficient delivery of 3 smart contracts along with their respective outstanding Dapps. Re purchased a total remake of our current website and im excited to see whats coming.",
+    name: "SOM3ON3",
+    designation: "Founder",
+    company: "Moozers NFT",
+    image: testemonial1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Rudeboy does. Front-end website + mint Dapp + smart contract was PERFECT. Also got free help for metadata and art generation.",
+    name: "Desetrix",
+    designation: "Founder",
+    company: "Shroonies Pastel",
+    image: testemonial2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Raised over $140 000 in under a minute using Rudeboy's smart contract for our NFT mint without a single hick up, front-end design and development was equally outstanding!",
+    name: "Aymandefi",
+    designation: "Founder",
+    company: "Pepeland",
+    image: testemonial3,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Moozers",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The ultimate user dashboard to keep track of loyalty rewards, mints, etc... The Moozers decentralized application interacts on chain to allow supporters to mint, stake & claim rewards for their NFTs",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -215,41 +223,37 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: moozersFront,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Odd Planet",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "New modern front-end website with decentralized web app integrated to raise funds via token presale for an upcoming P2E crypto gaming project.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: oddplanetFront,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Shroonies",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to Shroonieville, a collection of 2 000 Shroonies living on the blockchain beautifully represented by the front-end website made for this specific community",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
@@ -257,7 +261,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: shrooniesFront,
     source_code_link: "https://github.com/",
   },
 ];
