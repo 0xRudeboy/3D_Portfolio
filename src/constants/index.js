@@ -28,7 +28,7 @@ import {
 import testemonial1 from "../assets/testemonial1.jpeg";
 import testemonial2 from "../assets/testemonial2.jpeg";
 import testemonial3 from "../assets/testemonial3.png";
-import shroonies from "../assets/shroonies.png";
+import shroonies from "../assets/Shroonies.png";
 import oddplanet from "../assets/oddplanet.png";
 import moozers from "../assets/moozers.png";
 import moozersFront from "../assets/ezToknDapp.png";
