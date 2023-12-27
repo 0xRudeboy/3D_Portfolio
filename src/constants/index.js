@@ -31,7 +31,7 @@ import testemonial3 from "../assets/testemonial3.png";
 import shroonies from "../assets/shroonies.png";
 import oddplanet from "../assets/oddplanet.png";
 import moozers from "../assets/moozers.png";
-import moozersFront from "../assets/moozersFrontend.png";
+import moozersFront from "../assets/ezToknDapp.png";
 import oddplanetFront from "../assets/oddplanetFrontend.png";
 import shrooniesFront from "../assets/shrooniesFrontend.png";
 
@@ -206,9 +206,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Moozers",
+    name: "EzTokn",
     description:
-      "The ultimate user dashboard to keep track of loyalty rewards, mints, etc... The Moozers decentralized application interacts on chain to allow supporters to mint, stake & claim rewards for their NFTs",
+      "The one stop shop for no code smart contract deployments. Perfectly curated for founders, start ups & aspiring entrepreneurs looking to bring their products to market and skip the dev!",
     tags: [
       {
         name: "react",
@@ -224,7 +224,8 @@ const projects = [
       },
     ],
     image: moozersFront,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+    //https://app.eztokn.io
   },
   {
     name: "Odd Planet",
@@ -241,7 +242,8 @@ const projects = [
       },
     ],
     image: oddplanetFront,
-    source_code_link: "https://github.com/",
+    source_code_link: "",
+    //https://oddplanet.io
   },
   {
     name: "Shroonies",
@@ -262,7 +264,8 @@ const projects = [
       },
     ],
     image: shrooniesFront,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://shroonies.xyz",
+    //https://shroonies.xyz
   },
 ];
 

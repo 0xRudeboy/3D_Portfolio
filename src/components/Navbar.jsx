@@ -1,6 +1,5 @@
 import { useState } from "react";
-// import ghostboy from "../assets/logo.png";
-import undead from "../assets/GU.png";
+import undead from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
@@ -30,8 +29,8 @@ const Navbar = () => {
             className="h-9 object-contain rounded-full"
           />
           <p className="font-bold cursor-pointer flex text-white text-[18px]">
-            Rudeboy &nbsp;
-            <span className="sm:block hidden">| Web3</span>
+            0xRudeboy &nbsp;
+            <span className="sm:block hidden">| Web3 Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
