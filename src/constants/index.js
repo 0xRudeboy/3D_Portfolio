@@ -34,6 +34,8 @@ import moozers from "../assets/moozers.png";
 import moozersFront from "../assets/ezToknDapp.png";
 import oddplanetFront from "../assets/oddplanetFrontend.png";
 import shrooniesFront from "../assets/shrooniesFrontend.png";
+import ezTokn from "../assets/ezToknWebsite.png";
+import pepeland from "../assets/pepeland.png";
 
 export const navLinks = [
   {
@@ -130,7 +132,7 @@ const experiences = [
     company_name: "Shroonies",
     icon: shroonies,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "October 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,7 +144,7 @@ const experiences = [
     company_name: "Moozers",
     icon: moozers,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2023",
     points: [
       "Developing 3 separate NFT related smart contracts, one for the mint, one to serve as a reward system token & a staking mechanism for loyal holders to earn rewards",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,7 +157,7 @@ const experiences = [
     company_name: "Odd Planet",
     icon: oddplanet,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2023",
     points: [
       "Developing and maintaining a functional smart contract serving as a token for an upcoming P2E crypto gaming project.",
       "Developing in house presale Dapp for raising capital. Full stack decentralized application interacting on chain using a user friendly UI",
@@ -223,8 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: moozersFront,
-    source_code_link: "",
+    image: ezTokn,
+    source_code_link: "https://ez-tokn.vercel.app/",
     //https://app.eztokn.io
   },
   {
@@ -242,13 +244,13 @@ const projects = [
       },
     ],
     image: oddplanetFront,
-    source_code_link: "",
+    source_code_link: "https://oddplanet.co",
     //https://oddplanet.io
   },
   {
-    name: "Shroonies",
+    name: "Pepeland",
     description:
-      "Welcome to Shroonieville, a collection of 2 000 Shroonies living on the blockchain beautifully represented by the front-end website made for this specific community",
+      "Welcome to pepeland, a collection of 5,555 NFTs living on the Ethereum blockchain. Collection selling out in under a minute totalling $130 000 in ethereum raised.",
     tags: [
       {
         name: "nextjs",
@@ -259,12 +261,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: shrooniesFront,
-    source_code_link: "https://shroonies.xyz",
+    image: pepeland,
+    source_code_link: "https://pepeland-three.vercel.app/",
     //https://shroonies.xyz
   },
 ];
